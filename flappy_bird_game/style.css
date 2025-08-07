@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #70c5ce; /* Sky blue background */
+    overflow: hidden; /* Hide scrollbars */
+}
+
+canvas {
+    background-color: #4ec0ca; /* Lighter blue for game area */
+    border: 5px solid #333; /* Border around the game */
+    display: block; /* Remove extra space below canvas */
+}

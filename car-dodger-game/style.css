@@ -1,0 +1,61 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #333;
+    font-family: Arial, sans-serif;
+    color: #eee;
+}
+
+.game-container {
+    background-color: #000;
+    border: 5px solid #555;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+canvas {
+    background-color: #444; /* Road color */
+    display: block;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5em;
+    color: yellow;
+    z-index: 10;
+}
+
+#startButton,
+#gameOver {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    z-index: 20;
+}
+
+#gameOver {
+    background-color: #CC0000;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Car and obstacle styling will be done via JavaScript canvas drawing */
