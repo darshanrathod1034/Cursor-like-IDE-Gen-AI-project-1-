@@ -11,9 +11,14 @@
   },
   "dependencies": {
     "@google/genai": "^1.8.0",
+    "@langchain/core": "^0.3.78",
+    "@langchain/google-genai": "^0.2.18",
     "child_process": "^1.0.2",
+    "dotenv": "^17.2.3",
+    "langchain": "^0.3.35",
     "os": "^0.1.2",
     "readline-sync": "^1.4.10",
-    "util": "^0.12.5"
+    "util": "^0.12.5",
+    "zod": "^4.1.11"
   }
 }
